@@ -156,7 +156,10 @@
     }
     #main{
 #        width: 1000px; margin: 0 auto;
-    } 
+    }
+    #sidebar-wrapper{
+        display: none !important;
+    }
 }
 
 .category-reviews {
