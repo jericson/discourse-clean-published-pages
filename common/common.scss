@@ -1,0 +1,166 @@
+.published-page-author {
+    display: none;
+}
+
+/********************** REMOVE THINGS FROM LAYOUT USING TAGS ***************/
+/* Borrowed from https://meta.discourse.org/t/page-publishing/151971/145 */
+
+.tag-no-header {
+    .d-header {
+        display: none !important;
+    }
+    #post_1 nav.post-controls .actions button.edit {
+    top: 0px !important;
+    }
+    .topic-body h1 {
+        padding-top: 0 !important;
+    }
+}
+
+.tag-no-sidebars {
+    aside.sidebar {
+        display: none !important;
+    }
+}
+
+.tag-no-category {
+    .topic-category {
+        display: none !important;
+    }
+}
+
+.tag-no-timeline {
+    .topic-navigation {
+        display:none !important;
+    }
+    .container.posts {
+        grid-template-columns: 100% !important;
+    }
+    .topic-body {
+    width: 100% !important;
+    }
+}
+
+.tag-no-post-links {
+    .post-links-container {
+        display:none !important;
+    }
+}
+
+.tag-no-box-shadow {
+    .topic-body {
+        width: 100% !important;
+        border-top: none !important;
+        box-shadow: none !important;
+        background-color: unset !important;
+    }
+}
+
+.tag-no-topic-meta-data {
+    .topic-meta-data {
+        display:none !important;
+    }
+}
+
+.tag-no-side-margins {
+    .wrap {
+        max-width: unset !important;
+        padding: 0 10px !important;
+    }
+    .content-wrapper {
+        display: block !important;
+    }
+    #main-outlet-wrapper {
+        width: 100% !important;
+    }
+    .topic-body {
+        width: 100% !important;
+    }
+}
+
+.tag-no-footer-buttons {
+    #topic-footer-buttons {
+        display: none !important;
+    }
+}
+
+.tag-published {
+    .d-header {
+        display: none !important;
+    }
+    #post_1 nav.post-controls .actions button.edit {
+        top: 0px !important;
+    }
+    .topic-body h1 {
+        padding-top: 0 !important;
+    }
+    aside.sidebar {
+        display: none !important;
+    }
+    .topic-category {
+        display: none !important;
+    }
+    .topic-navigation {
+        display:none !important;
+    }
+    .container.posts {
+        justify-content: center;
+        grid-template-columns: 100% !important;
+    }
+
+    .post-links-container {
+        display:none !important;
+    }
+    .topic-body {
+        justify-content: center;    
+        border-top: none !important;
+        box-shadow: none !important;
+        background-color: unset !important;
+    }
+    .topic-meta-data {
+        display:none !important;
+    }
+    .wrap {
+        max-width: unset !important;
+        padding: 0 10px !important;
+    }
+    .content-wrapper {
+        display: block !important;
+    }
+    #main-outlet-wrapper {
+        width: 100% !important;
+    }
+    #topic-footer-buttons {
+        display: none !important;
+    }
+    .topic-avatar {
+        display: none !important;
+    }
+    .post-notice {
+        display: none !important;
+    }
+    .post-menu-area {
+        display: none !important;
+    }
+    .global-notice {
+        display: none !important;
+    }
+    .close {
+        display: none !important;
+    }
+    .more-topics__container {
+        display: none !important;
+    }
+    #banner {
+       background: var(--highlight); 
+    }
+    #main{
+#        width: 1000px; margin: 0 auto;
+    } 
+}
+
+.category-reviews {
+    .d-header {
+        display: none !important;
+    }
+}
